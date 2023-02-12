@@ -1,0 +1,5 @@
+{{.TaskID}}. {{.Task}} by @{{.Owner}}{{if.CurrentUserAssign}}
+assignee: я
+/unassign_{{.TaskID}} /resolve_{{.TaskID}}{{end}}{{if.Assignee}}
+assignee: @{{.AssigneeUser}}{{end}}{{if.NotAssignee}}
+/assign_{{.TaskID}}{{end}}

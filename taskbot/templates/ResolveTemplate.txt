@@ -1,0 +1,1 @@
+Задача "{{.Task}}" выполнена{{if .NotAssignee}} @{{ .AssigneeUser}}{{end}}

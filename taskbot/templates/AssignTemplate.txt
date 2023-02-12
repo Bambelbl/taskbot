@@ -1,0 +1,1 @@
+Задача "{{.Task}}" назначена на {{if.CurrentUserAssign}}вас{{end}}{{if.Assignee}}@{{.AssigneeUser}}{{end}}
